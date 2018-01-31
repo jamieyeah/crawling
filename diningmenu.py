@@ -1,8 +1,10 @@
 
+
+#import beautifulsoup 
 from bs4 import BeautifulSoup
 from urllib.request import urlopen
 
-html=urlopen('https://dorm.chungbuk.ac.kr/sub05/5_2_tab2.php?type1=5&type2=2')
+html=urlopen('#address')
 source=html.read()
 html.close()
 
